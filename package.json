@@ -1,0 +1,8 @@
+{
+  "name": "elmenu",
+  "version": "0.0.1",
+  "description": "elmenuapp",
+  "main": "index.js",
+  "author": "Osmane Kalache <osminosm@gmail.com>",
+  "license": "MIT"
+}
