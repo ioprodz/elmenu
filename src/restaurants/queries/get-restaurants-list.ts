@@ -1,4 +1,4 @@
-import { Query } from "../../core/cqs";
+import { Query } from "../../.core/cqs";
 import { Restaurant } from "../restaurant";
 import { RestaurantRepo } from "../restaurant.repo";
 

@@ -1,4 +1,4 @@
-import { Command } from "../../core/cqs";
+import { Command } from "../../.core/cqs";
 import { Restaurant } from "../restaurant";
 import { RestaurantRepo } from "../restaurant.repo";
 

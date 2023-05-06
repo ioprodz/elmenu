@@ -1,10 +1,6 @@
 import { Restaurant } from "./restaurant";
 
 describe("Restaurant", () => {
-  it("is defined", () => {
-    expect(Restaurant).toBeTruthy();
-  });
-
   describe("validation", () => {
     it("requires a name", () => {
       expect(
