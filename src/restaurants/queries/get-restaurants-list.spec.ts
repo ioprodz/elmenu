@@ -1,4 +1,4 @@
-import { RestaurantTestRepo } from "../restaurant.test.repo";
+import { RestaurantTestRepo } from "../restaurant/restaurant.test.repo";
 import { GetRestaurants } from "./get-restaurants-list";
 
 describe("GetRestaurants", () => {

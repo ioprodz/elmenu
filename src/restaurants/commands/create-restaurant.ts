@@ -1,6 +1,6 @@
 import { Command } from "../../.core/cqs";
-import { Restaurant } from "../restaurant";
-import { RestaurantRepo } from "../restaurant.repo";
+import { Restaurant } from "../restaurant/restaurant";
+import { RestaurantRepo } from "../restaurant/restaurant.repo";
 
 type CreateRestaurantDto = Omit<Restaurant, "id">;
 

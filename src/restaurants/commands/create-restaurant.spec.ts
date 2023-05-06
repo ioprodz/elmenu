@@ -1,5 +1,5 @@
 import { CreateRestaurant } from "./create-restaurant";
-import { RestaurantTestRepo } from "../restaurant.test.repo";
+import { RestaurantTestRepo } from "../restaurant/restaurant.test.repo";
 
 describe("Create Restaurant", () => {
   it("should save the input object and give it an id", () => {
