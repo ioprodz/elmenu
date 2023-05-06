@@ -1,14 +1,5 @@
 import { CreateRestaurant } from "./create-restaurant";
-import { Restaurant } from "../restaurant";
-import { RestaurantRepo } from "../restaurant.repo";
-
-class RestaurantTestRepo implements RestaurantRepo {
-  private collection: Restaurant[] = [];
-  create(restaurant: Restaurant): Restaurant {
-    this.collection.push(restaurant);
-    return this.collection[this.collection.length - 1];
-  }
-}
+import { RestaurantTestRepo } from "../restaurant.test.repo";
 
 describe("Create Restaurant", () => {
   it("should save the input object and give it an id", () => {

@@ -1,9 +1,12 @@
+import { Command } from "../../core/cqs";
 import { Restaurant } from "../restaurant";
 import { RestaurantRepo } from "../restaurant.repo";
 
 type CreateRestaurantDto = Omit<Restaurant, "id">;
 
-export class CreateRestaurant {
+export class CreateRestaurant
+  implements Command<CreateRestaurantDto, Restaurant>
+{
   private restaurantRepo;
 
   constructor(restaurantRepo: RestaurantRepo) {
